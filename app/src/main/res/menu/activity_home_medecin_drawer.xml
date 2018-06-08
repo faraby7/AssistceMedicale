@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/Detecter"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Detecter Objet" />
+        <item
+            android:id="@+id/RendezVous"
+            android:icon="@drawable/calendar"
+            android:title="Rendez-vous" />
+        <item
+            android:id="@+id/Patients"
+            android:icon="@drawable/group"
+            android:title="Patients" />
+        <item
+            android:id="@+id/medicament"
+            android:icon="@drawable/medicine"
+            android:title="Medicament" />
+
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/Setting"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Tools" />
+            <item
+                android:id="@+id/SoS"
+                android:icon="@drawable/notification"
+                android:title="SOS Notification" />
+        </menu>
+    </item>
+
+</menu>

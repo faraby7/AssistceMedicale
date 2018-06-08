@@ -1,0 +1,11 @@
+#Internal package file, do not edit.
+#Thu Jun 07 02:28:39 GMT 2018
+1.base=C\:\\Users\\Faraby\\AndroidStudioProjects\\AssistanceMedicale\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\27
+0.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=DEX
+0.path=classes.dex
+0.set=DEX
+0.base=C\:\\Users\\Faraby\\AndroidStudioProjects\\AssistanceMedicale\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\28
+1.path=classes.dex

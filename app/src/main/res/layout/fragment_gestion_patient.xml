@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_content_panier"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:fitsSystemWindows="true">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            >
+
+                            <EditText
+                                android:id="@+id/PatientAdd"
+                                android:layout_marginTop="22dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:drawableLeft="@drawable/user"
+                                android:drawableTint="#fb8181"
+                                android:textColor="#3e3c3c"
+                                android:hint="Search Patient"
+                                android:inputType="text"
+                                android:singleLine="true" />
+                        </android.support.design.widget.TextInputLayout>
+
+                        <Button
+                            android:id="@+id/AjouterPatient"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="12dp"
+                            android:background="#fb8080"
+                            android:text="Ajouter"
+                            android:textAllCaps="false"
+                            android:textColor="#403d3b"
+                            android:textSize="18sp"
+
+                            />
+
+
+                    </LinearLayout>
+
+
+
+
+                    <include layout="@layout/patient_content"
+                        />
+
+
+    </RelativeLayout>

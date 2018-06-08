@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="theme_color">#D8540D</color>
+    <color name="toolbar_title_color">#E66800</color>
+    <color name="grey">#d3d3d3</color>
+    <color name="maroon">#7f0000</color>
+    <color name="color_textual">#8D5020</color>
+    <color name="chef_bg_color">#F7F7F7</color>
+    <color name="line_color">#dddddd</color>
+</resources>

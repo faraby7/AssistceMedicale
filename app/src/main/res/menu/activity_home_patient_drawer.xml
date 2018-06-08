@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Detecter"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Detecter Objet" />
+        <item
+            android:id="@+id/RendezVous"
+            android:icon="@drawable/calendar"
+            android:title="Rendez-vous " />
+        <item
+            android:id="@+id/Ordonnance"
+            android:icon="@drawable/ordre"
+            android:title="Ordonnance" />
+        <item
+            android:id="@+id/Notification"
+            android:icon="@drawable/notification"
+            android:title="Notification" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+
+            <item
+                android:id="@+id/Setting"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Settings" />
+            <item
+                android:id="@+id/SoS"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send SOS" />
+        </menu>
+    </item>
+
+</menu>
