@@ -21,6 +21,7 @@ import android.widget.TextView;
 
 import com.ensias.assistancemedicale.FragmentMedecin.GestionMedicamentFragment;
 import com.ensias.assistancemedicale.FragmentMedecin.GestionPatientFragment;
+import com.ensias.assistancemedicale.FragmentMedecin.RendezVousFragment;
 
 
 public class HomeMedecin extends AppCompatActivity
@@ -121,24 +122,27 @@ public class HomeMedecin extends AppCompatActivity
 
         Fragment fragment=null;
         int id = item.getItemId();
+        FragmentManager fragmentManager= getSupportFragmentManager();
+        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
 
         if (id == R.id.Patients) {
 
             GestionPatientFragment mfragment = new GestionPatientFragment();
             mfragment.setmContext(this);
-            FragmentManager fragmentManager= getSupportFragmentManager();
-            FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
             fragmentTransaction.replace(R.id.screen_area2,mfragment);
-            fragmentTransaction.commit();
+
          }else if(id == R.id.medicament){
 
             GestionMedicamentFragment mfragment = new GestionMedicamentFragment();
             mfragment.setmContext(this);
-
-            FragmentManager fragmentManager= getSupportFragmentManager();
-            FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
             fragmentTransaction.replace(R.id.screen_area2,mfragment);
-            fragmentTransaction.commit();
+
+
+        }else if(id == R.id.RendezVous){
+
+            RendezVousFragment mfragment = new RendezVousFragment();
+            mfragment.setmContext(this);
+            fragmentTransaction.replace(R.id.screen_area2,mfragment);
 
         }
 /*
@@ -155,15 +159,16 @@ public class HomeMedecin extends AppCompatActivity
         }
 */
 
+
+
+
         if(fragment != null){
 
-            FragmentManager fragmentManager= getSupportFragmentManager();
-            FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
             fragmentTransaction.replace(R.id.screen_area2,fragment);
-            fragmentTransaction.commit();
 
         }
 
+        fragmentTransaction.commit();
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;

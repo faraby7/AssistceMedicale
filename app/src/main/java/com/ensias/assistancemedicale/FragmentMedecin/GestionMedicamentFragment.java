@@ -92,10 +92,33 @@ public class GestionMedicamentFragment extends Fragment {
                 Medicament item = new Medicament(json_data.getInt("id"), json_data.getString("nom"), json_data.getString("type"), json_data.getString("description"));
                 medicaments.add(item);
                 switch (item.getNom().charAt(0)){
+
                     case 'A': logo.add(getResources().getDrawable(R.drawable.a));break;
-                    case 'I': logo.add(getResources().getDrawable(R.drawable.i));break;
+                    case 'B': logo.add(getResources().getDrawable(R.drawable.b));break;
+                    case 'C': logo.add(getResources().getDrawable(R.drawable.c));break;
+                    case 'D': logo.add(getResources().getDrawable(R.drawable.d));break;
                     case 'E': logo.add(getResources().getDrawable(R.drawable.e));break;
+                    case 'F': logo.add(getResources().getDrawable(R.drawable.f));break;
                     case 'G': logo.add(getResources().getDrawable(R.drawable.g));break;
+                    case 'H': logo.add(getResources().getDrawable(R.drawable.h));break;
+                    case 'I': logo.add(getResources().getDrawable(R.drawable.i));break;
+                    case 'J': logo.add(getResources().getDrawable(R.drawable.j));break;
+                    case 'K': logo.add(getResources().getDrawable(R.drawable.k));break;
+                    case 'L': logo.add(getResources().getDrawable(R.drawable.l));break;
+                    case 'M': logo.add(getResources().getDrawable(R.drawable.m));break;
+                    case 'N': logo.add(getResources().getDrawable(R.drawable.n));break;
+                    case 'O': logo.add(getResources().getDrawable(R.drawable.o));break;
+                    case 'P': logo.add(getResources().getDrawable(R.drawable.p));break;
+                    case 'Q': logo.add(getResources().getDrawable(R.drawable.q));break;
+                    case 'R': logo.add(getResources().getDrawable(R.drawable.r));break;
+                    case 'S': logo.add(getResources().getDrawable(R.drawable.s));break;
+                    case 'T': logo.add(getResources().getDrawable(R.drawable.t));break;
+                    case 'U': logo.add(getResources().getDrawable(R.drawable.u));break;
+                    case 'V': logo.add(getResources().getDrawable(R.drawable.v));break;
+                    case 'W': logo.add(getResources().getDrawable(R.drawable.w));break;
+                    case 'X': logo.add(getResources().getDrawable(R.drawable.x));break;
+                    case 'Y': logo.add(getResources().getDrawable(R.drawable.y));break;
+                    case 'Z': logo.add(getResources().getDrawable(R.drawable.z));break;
                     default: logo.add(getResources().getDrawable(R.drawable.a));break;
                 }
 

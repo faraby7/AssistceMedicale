@@ -96,7 +96,7 @@ public class GestionPatientFragment extends Fragment {
 
                             SharedPreferences sharedPreferences = mContext.getSharedPreferences("Medecin", Context.MODE_PRIVATE);
 
-                            String url1 = "idmedecin=" + sharedPreferences.getInt("idMedecin",0)+"id="+json_data.getInt("id");
+                            String url1 = "idmedecin=" + sharedPreferences.getInt("idMedecin",0)+"&id="+json_data.getInt("id");
                             new AsyncInscTask(mContext,url1).execute(MainActivity.IP + "/AssistanceMedicale/web_services.php?actionAddPatient");
                             Toast.makeText(mContext,"Add Done"+sharedPreferences.getInt("idMedecin",0)+"f"+json_data.getInt("id"),Toast.LENGTH_LONG).show();
 
