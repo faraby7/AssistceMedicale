@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+
+
     <color name="theme_color">#D8540D</color>
     <color name="toolbar_title_color">#E66800</color>
     <color name="grey">#d3d3d3</color>
@@ -10,4 +9,21 @@
     <color name="color_textual">#8D5020</color>
     <color name="chef_bg_color">#F7F7F7</color>
     <color name="line_color">#dddddd</color>
+    <color name="colorPrimary">#FFC107</color>
+    <color name="colorPrimaryDark">#FFA000</color>
+    <color name="backgroundcolor">#fcfcfc</color>
+    <color name="lightgray">#ededed</color>
+    <color name="deeppurple">#7c4dff</color>
+    <color name="yello">#ffb300</color>
+    <color name="green">#00bfa5</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="darkblue">#23283a</color>
+    <color name="testcolorblue">#152b38</color>
+    <color name="pink">#fe104d</color>
+    <color name="lightorange">#decc9e</color>
+    <color name="lightorangedark">#b9ad84</color>
+    <color name="graylight">#fafafa</color>
+<color name="startblue">#09c6df</color>
+    <color name="endblue">#0bcce6</color>
+    <color name="black_overlay">#66000000</color>
 </resources>

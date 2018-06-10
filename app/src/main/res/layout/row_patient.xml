@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="70dp">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginTop="5dp"
+    android:padding="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="#ffffff"
+    >
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/idpatient"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
 
     <ImageView android:id="@+id/imagepatient" android:layout_width="50dp" android:layout_height="50dp" tools:background="#fff"  android:layout_marginTop="7dp" android:layout_marginRight="10dp" android:layout_marginLeft="10dp" android:src="@drawable/doctor3" />
 

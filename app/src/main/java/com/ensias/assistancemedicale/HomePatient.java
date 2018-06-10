@@ -1,6 +1,9 @@
 package com.ensias.assistancemedicale;
 
 
+import android.content.Context;
+import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -74,6 +77,12 @@ public class HomePatient extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+
+            SharedPreferences sharedPreferences = getSharedPreferences("Patient", Context.MODE_PRIVATE);
+            sharedPreferences.edit().clear().commit();
+            Intent authentification = new Intent(this, MainActivity.class);
+            startActivity(authentification);
+            finish();
             return true;
         }
 

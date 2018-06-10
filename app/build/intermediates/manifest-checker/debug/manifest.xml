@@ -20,11 +20,6 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity android:name="com.ensias.assistancemedicale.MainActivity" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name="com.ensias.assistancemedicale.Inscription" />
         <activity android:name="com.ensias.assistancemedicale.InscriptionMedecin" />
@@ -36,6 +31,18 @@
             android:name="com.ensias.assistancemedicale.HomeMedecin"
             android:label="@string/title_activity_home_medecin"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.ensias.assistancemedicale.Welcome"
+            android:theme="@style/Theme.Design.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ensias.assistancemedicale.ProfilePatient"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
 
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"

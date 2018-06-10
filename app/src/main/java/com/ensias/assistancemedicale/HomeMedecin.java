@@ -1,6 +1,7 @@
 package com.ensias.assistancemedicale;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -19,6 +20,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 
+import com.ensias.assistancemedicale.FragmentMedecin.DashboardMedecinFragment;
 import com.ensias.assistancemedicale.FragmentMedecin.GestionMedicamentFragment;
 import com.ensias.assistancemedicale.FragmentMedecin.GestionPatientFragment;
 import com.ensias.assistancemedicale.FragmentMedecin.RendezVousFragment;
@@ -60,6 +62,17 @@ public class HomeMedecin extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
 
 
+
+
+        //Fragment mfragment=null;
+        //int id = item.getItemId();
+        FragmentManager fragmentManager= getSupportFragmentManager();
+        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+        DashboardMedecinFragment mfragment = new DashboardMedecinFragment();
+        mfragment.setmContext(this);
+        fragmentTransaction.replace(R.id.screen_area2,mfragment);
+
+        fragmentTransaction.commit();
 
 
 
@@ -109,6 +122,12 @@ public class HomeMedecin extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+
+            sharedPreferences = getSharedPreferences("Medecin", Context.MODE_PRIVATE);
+            sharedPreferences.edit().clear().commit();
+            Intent authentification = new Intent(this, MainActivity.class);
+            startActivity(authentification);
+            finish();
             return true;
         }
 
@@ -162,10 +181,11 @@ public class HomeMedecin extends AppCompatActivity
 
 
 
-        if(fragment != null){
+        if(fragment!= null){
 
-            fragmentTransaction.replace(R.id.screen_area2,fragment);
-
+            DashboardMedecinFragment mfragment = new DashboardMedecinFragment();
+            mfragment.setmContext(this);
+            fragmentTransaction.replace(R.id.screen_area2,mfragment);
         }
 
         fragmentTransaction.commit();
