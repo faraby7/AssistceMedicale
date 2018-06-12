@@ -35,6 +35,7 @@
             android:name=".ProfilePatient"
             android:theme="@style/Theme.Design.Light.NoActionBar" />
         <activity android:name=".RendezVousPatient"></activity>
+        <activity android:name=".NewPrescription" />
     </application>
 
 </manifest>

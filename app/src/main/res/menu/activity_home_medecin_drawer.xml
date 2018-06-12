@@ -22,6 +22,11 @@
             android:icon="@drawable/medicine"
             android:title="Medicament" />
 
+        <item
+            android:id="@+id/ordonnances_menu"
+            android:icon="@drawable/medicine"
+            android:title="Ordonnances" />
+
 
     </group>
 
