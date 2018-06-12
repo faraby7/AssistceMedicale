@@ -163,6 +163,11 @@ public class HomeMedecin extends AppCompatActivity
             mfragment.setmContext(this);
             fragmentTransaction.replace(R.id.screen_area2,mfragment);
 
+        }else if(id == R.id.Detecter){
+
+            Intent H = new Intent(this, RendezVousPatient.class);
+            startActivity(H);
+
         }
 /*
         /*else if (id == R.id.nav_gallery) {

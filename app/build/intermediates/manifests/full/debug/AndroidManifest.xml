@@ -19,8 +19,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.ensias.assistancemedicale.MainActivity" >
-        </activity>
+        <activity android:name="com.ensias.assistancemedicale.MainActivity" />
         <activity android:name="com.ensias.assistancemedicale.Inscription" />
         <activity android:name="com.ensias.assistancemedicale.InscriptionMedecin" />
         <activity
@@ -43,6 +42,7 @@
         <activity
             android:name="com.ensias.assistancemedicale.ProfilePatient"
             android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity android:name="com.ensias.assistancemedicale.RendezVousPatient" />
     </application>
 
 </manifest>

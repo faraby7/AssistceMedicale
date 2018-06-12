@@ -56,9 +56,9 @@
                         android:textSize="15sp"
                         />
                     <TextView
+                        android:id="@+id/RendezVousDate"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="12/12/18"
                         android:textStyle="bold"
                         android:textSize="15sp"
                         android:paddingTop="10dp"
@@ -96,7 +96,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Media"
+                        android:text="Nbr RDV"
                         android:textSize="15sp"
                         />
                     <TextView
@@ -104,7 +104,7 @@
                         android:layout_height="wrap_content"
                         android:text="15"
                         android:textStyle="bold"
-                        android:textSize="20sp"
+                        android:textSize="15sp"
                         android:paddingTop="10dp"
                         android:textColor="@color/startblue"/>
 

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginTop="5dp"
+    android:padding="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="#f4ece7"
+    android:layout_marginBottom="8dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    >
+
+
+
+    <TextView android:id="@+id/nom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@android:color/black" android:layout_marginLeft="10dp"  android:layout_alignTop="@+id/imagepatient" android:textStyle="bold" android:text="Rendez Vous Avec :" />
+
+    <TextView
+        android:id="@+id/nomRDV"
+        android:text="Yassine elghandour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/nom"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/dateRDV"
+        android:textColor="@color/pink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="8dp"
+        android:text="12-12-2011"
+        android:layout_toRightOf="@id/nomRDV"
+        android:layout_marginLeft="27dp"/>
+    <TextView
+        android:id="@+id/descriptionRDV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="12dp"
+        android:layout_alignLeft="@+id/nom"
+        android:layout_below="@+id/nom"
+        android:text="Texte de mon tweet description sur le rendez vous" />
+
+</RelativeLayout>

@@ -1,6 +1,7 @@
 
 package com.ensias.assistancemedicale.FragmentPatient;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -13,6 +14,17 @@ import android.widget.Toast;
 import com.ensias.assistancemedicale.R;
 
 public class DetecterFragment extends Fragment {
+
+
+    Context mContext;
+
+    public DetecterFragment() {
+    }
+
+    public void setmContext(Context mContext) {
+        this.mContext = mContext;
+    }
+
 
 
     @Nullable

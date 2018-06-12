@@ -20,7 +20,10 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.ensias.assistancemedicale.FragmentMedecin.DashboardMedecinFragment;
+import com.ensias.assistancemedicale.FragmentPatient.DashboardPatientFragment;
 import com.ensias.assistancemedicale.FragmentPatient.DetecterFragment;
+import com.ensias.assistancemedicale.FragmentPatient.MyDoctorFragment;
 
 public class HomePatient extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -49,6 +52,15 @@ public class HomePatient extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        FragmentManager fragmentManager= getSupportFragmentManager();
+        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+        DashboardPatientFragment mfragment = new DashboardPatientFragment();
+        mfragment.setmContext(this);
+        fragmentTransaction.replace(R.id.screen_area,mfragment);
+
+        fragmentTransaction.commit();
+
     }
 
     @Override
@@ -96,12 +108,23 @@ public class HomePatient extends AppCompatActivity
 
         Fragment fragment=null;
         int id = item.getItemId();
+        FragmentManager fragmentManager= getSupportFragmentManager();
+        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
 
         if (id == R.id.Detecter) {
-            fragment = new DetecterFragment();
-        } /*else if (id == R.id.nav_gallery) {
+            DetecterFragment mfragment = new DetecterFragment();
+            mfragment.setmContext(this);
+            fragmentTransaction.replace(R.id.screen_area,mfragment);
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.my_doctor) {
+
+
+            MyDoctorFragment mfragment = new MyDoctorFragment();
+            mfragment.setmContext(this);
+            fragmentTransaction.replace(R.id.screen_area,mfragment);
+        }
+
+        /*else if (id == R.id.nav_slideshow) {
 
         } else if (id == R.id.nav_manage) {
 
@@ -111,14 +134,14 @@ public class HomePatient extends AppCompatActivity
 
         }*/
 
-        if(fragment != null){
+        if(fragment!= null){
 
-            FragmentManager fragmentManager= getSupportFragmentManager();
-            FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-            fragmentTransaction.replace(R.id.screen_area,fragment);
-            fragmentTransaction.commit();
-
+            DashboardPatientFragment mfragment = new DashboardPatientFragment();
+            mfragment.setmContext(this);
+            fragmentTransaction.replace(R.id.screen_area,mfragment);
         }
+
+        fragmentTransaction.commit();
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;

@@ -11,9 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"
-           >
-            </activity>
+        <activity android:name=".MainActivity"></activity>
         <activity android:name=".Inscription" />
         <activity android:name=".InscriptionMedecin" />
         <activity
@@ -33,10 +31,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ProfilePatient"
-            android:theme="@style/Theme.Design.Light.NoActionBar"
-
-            ></activity>
+        <activity
+            android:name=".ProfilePatient"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity android:name=".RendezVousPatient"></activity>
     </application>
 
 </manifest>

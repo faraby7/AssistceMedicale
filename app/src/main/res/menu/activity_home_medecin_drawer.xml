@@ -7,8 +7,8 @@
 
         <item
             android:id="@+id/Detecter"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Detecter Objet" />
+            android:icon="@drawable/ic_access_time_black_24dp"
+            android:title="Mes Rendez-Vous" />
         <item
             android:id="@+id/RendezVous"
             android:icon="@drawable/calendar"

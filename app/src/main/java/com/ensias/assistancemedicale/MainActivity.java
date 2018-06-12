@@ -21,7 +21,7 @@ import Task.AsyncGetTask;
 
 public class MainActivity extends AppCompatActivity {
 
-    public static final String IP="http://192.168.1.11";
+    public static final String IP="http://192.168.43.219";
     SharedPreferences sharedPreferences;
     EditText UserName,Password;
     Button SignIn;
@@ -142,6 +142,8 @@ public class MainActivity extends AppCompatActivity {
                         editor.putString("dateNaissancePatient",patient.getDateNaissance().toString());
                         editor.putString("telPatient",patient.getTelephone());
                         editor.putString("usernamePatient",patient.getUserName());
+                        editor.putInt("idMedecin",json_data.getInt("id_medecin"));
+
                         editor.commit();
                         Intent Home = new Intent(this, HomePatient.class);
                         startActivity(Home);

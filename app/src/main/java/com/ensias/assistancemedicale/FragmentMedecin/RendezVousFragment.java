@@ -125,7 +125,7 @@ public class RendezVousFragment extends Fragment {
         rendezDate= (EditText)result.findViewById(R.id.rendezDate);
         myCalendar = Calendar.getInstance();
 
-        myFormat = "MM/dd/yy"; //In which you need put here
+        myFormat = "yyyy/MM/dd"; //In which you need put here
         sdf = new SimpleDateFormat(myFormat, Locale.US);
         //birthday=myCalendar.getTime();
         rendezDate.setText(sdf.format(myCalendar.getTime()));
@@ -163,11 +163,13 @@ public class RendezVousFragment extends Fragment {
 
 
     private void updateLabel() {
-        myFormat = "MM/dd/yy"; //In which you need put here
+        myFormat = "yyyy/MM/dd"; //In which you need put here
         sdf = new SimpleDateFormat(myFormat, Locale.US);
         //birthday=myCalendar.getTime();
         rendezDate.setText(sdf.format(myCalendar.getTime()));
     }
+
+
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
 

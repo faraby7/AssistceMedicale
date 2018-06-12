@@ -18,13 +18,14 @@ public class ProfilePatient extends AppCompatActivity {
     TextView emailPatient;
     TextView adressePatient;
     TextView phonePatient;
+    TextView rendezVousPatient;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile_patient);
         String id =getIntent().getExtras().getString("id");
         try {
-        String result = new AsyncGetTask(this).execute(IP + "/AssistanceMedicale/web_services.php?action=FindPatientId&id=" + id.toString()).get();
+        String result = new AsyncGetTask(this).execute(MainActivity.IP + "/AssistanceMedicale/web_services.php?action=FindPatientId&id=" + id.toString()).get();
         JSONArray jArray = new JSONArray(result);
         JSONObject json_data = jArray.getJSONObject(0);
         Patient patient = new Patient(json_data.getInt("id"), json_data.getString("nom"), json_data.getString("prenom"), json_data.getString("email"), json_data.getString("telephone"), json_data.getString("username"), json_data.getString("password"), json_data.getString("adresse"), json_data.getString("datenaissance"), null);
@@ -32,7 +33,13 @@ public class ProfilePatient extends AppCompatActivity {
         emailPatient = (TextView) findViewById(R.id.emailPatient);
         adressePatient = (TextView) findViewById(R.id.adressePatient);
         phonePatient = (TextView) findViewById(R.id.phonePatient);
+        rendezVousPatient = (TextView) findViewById(R.id.RendezVousDate);
 
+        String result1 = new AsyncGetTask(this).execute(MainActivity.IP + "/AssistanceMedicale/web_services.php?action=FindRendezVousId&idPatient=" + patient.getId()).get();
+        JSONArray jArray1 = new JSONArray(result1);
+        JSONObject json_data1 = jArray1.getJSONObject(0);
+
+        rendezVousPatient.setText(json_data1.getString("3"));
         nompatient.setText(patient.getNom()+" "+patient.getPrenom());
         emailPatient.setText(patient.getEmail());
         adressePatient.setText(patient.getAdresse());
