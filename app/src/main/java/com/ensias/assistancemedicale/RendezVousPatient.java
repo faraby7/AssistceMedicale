@@ -73,7 +73,7 @@ public class RendezVousPatient extends AppCompatActivity {
             for (int i = 0; i < jsonArray.length(); i++) {
 
                 JSONObject json_data = jsonArray.getJSONObject(i);
-                Rdv rdv=new Rdv(json_data.getString("Description"), json_data.getString(    "date"),null);
+                Rdv rdv=new Rdv(json_data.getString("Description"), json_data.getString("date"),null);
                 Log.d("TQGRD","RDV: "+rdv);
 
                 String result2 = new AsyncGetTask(this).execute(MainActivity.IP + "/AssistanceMedicale/web_services.php?action=FindPatientId&id="+ json_data.getInt("id_patient")).get();

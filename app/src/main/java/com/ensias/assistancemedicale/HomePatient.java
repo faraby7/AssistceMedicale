@@ -19,11 +19,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 
 import com.ensias.assistancemedicale.FragmentMedecin.DashboardMedecinFragment;
 import com.ensias.assistancemedicale.FragmentPatient.DashboardPatientFragment;
 import com.ensias.assistancemedicale.FragmentPatient.DetecterFragment;
 import com.ensias.assistancemedicale.FragmentPatient.MyDoctorFragment;
+import com.ensias.assistancemedicale.FragmentPatient.MyOrdonnanceFragment;
+import com.ensias.assistancemedicale.FragmentPatient.MyRendezVousFragment;
 
 public class HomePatient extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -76,6 +79,22 @@ public class HomePatient extends AppCompatActivity
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
+
+        try {
+
+
+           SharedPreferences sharedPreferences= getSharedPreferences("Patient", Context.MODE_PRIVATE);
+
+            TextView emailPatient = (TextView)findViewById(R.id.emailPatient);
+            TextView nomPatient = (TextView)findViewById(R.id.nomPatient);
+            nomPatient.setText(sharedPreferences.getString("nomPatient",null)+sharedPreferences.getString(
+                    "prenomPatient",null));
+            emailPatient.setText(sharedPreferences.getString("usernamePatient", null));
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
         getMenuInflater().inflate(R.menu.home_patient, menu);
         return true;
     }
@@ -124,11 +143,20 @@ public class HomePatient extends AppCompatActivity
             fragmentTransaction.replace(R.id.screen_area,mfragment);
         }
 
-        /*else if (id == R.id.nav_slideshow) {
+        else if (id == R.id.RendezVous) {
+            MyRendezVousFragment mfragment = new MyRendezVousFragment();
+            mfragment.setmContext(this);
+            fragmentTransaction.replace(R.id.screen_area,mfragment);
 
-        } else if (id == R.id.nav_manage) {
 
-        } else if (id == R.id.nav_share) {
+
+        } else if (id == R.id.Ordonnance) {
+
+            MyOrdonnanceFragment mfragment= new MyOrdonnanceFragment();
+            mfragment.setmContext(this);
+            fragmentTransaction.replace(R.id.screen_area,mfragment);
+
+        }/* else if (id == R.id.nav_share) {
 
         } else if (id == R.id.nav_send) {
 

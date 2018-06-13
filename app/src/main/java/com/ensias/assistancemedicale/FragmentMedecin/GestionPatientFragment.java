@@ -97,7 +97,7 @@ public class GestionPatientFragment extends Fragment {
                             SharedPreferences sharedPreferences = mContext.getSharedPreferences("Medecin", Context.MODE_PRIVATE);
 
                             String url1 = "idmedecin=" + sharedPreferences.getInt("idMedecin",0)+"&id="+json_data.getInt("id");
-                            new AsyncInscTask(mContext,url1).execute(MainActivity.IP + "/AssistanceMedicale/web_services.php?actionAddPatient");
+                            new AsyncInscTask(mContext,url1).execute(MainActivity.IP + "/AssistanceMedicale/web_services.php?action=AddPatient");
                             Toast.makeText(mContext,"Add Done"+sharedPreferences.getInt("idMedecin",0)+"f"+json_data.getInt("id"),Toast.LENGTH_LONG).show();
 
                             Log.d("TTG","Listner Called");
@@ -138,12 +138,6 @@ public class GestionPatientFragment extends Fragment {
         loadRecyclerViewData();
 
 
-        try {
-            //  Glide.with(this).load(R.drawable.panier).into((ImageView) findViewById(R.id.backdrop));
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
     }
 
 
@@ -157,7 +151,7 @@ public class GestionPatientFragment extends Fragment {
         try {
 
             sharedPreferences = getContext().getSharedPreferences("Medecin", getContext().MODE_PRIVATE);
-            // Toast.makeText(getContext(), sharedPreferences.getInt("idMedecin",0), Toast.LENGTH_LONG ).show();
+           // Toast.makeText(getContext(), sharedPreferences.getInt("idMedecin",0), Toast.LENGTH_LONG ).show();
             String result = new AsyncGetTask(getContext()).execute(MainActivity.IP + "/AssistanceMedicale/web_services.php?action=medecin_patient&idmedecin=" + sharedPreferences.getInt("idMedecin", 0)).get();
             JSONArray jsonArray = new JSONArray(result);
             progressDialog.dismiss();

@@ -205,11 +205,11 @@
                 {
                     "source": "C:\\Users\\Faraby\\AndroidStudioProjects\\AssistanceMedicale\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
-                        "startLines": "8,1,7,6,5,4,3,9,2",
+                        "startLines": "8,9,7,6,5,4,3,10,2",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "496,17,433,357,296,219,144,550,75",
+                        "startOffsets": "440,494,377,301,240,163,88,552,19",
                         "endColumns": "52,56,61,74,59,75,73,67,67",
-                        "endOffsets": "544,69,490,427,351,290,213,613,138"
+                        "endOffsets": "488,546,434,371,295,234,157,615,82"
                     },
                     "to": {
                         "startLines": "860,861,865,866,867,868,869,877,878",

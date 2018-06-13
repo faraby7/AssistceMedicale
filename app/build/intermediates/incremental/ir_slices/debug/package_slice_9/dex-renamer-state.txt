@@ -1,4 +1,4 @@
-#Mon Jun 11 22:47:12 GMT 2018
+#Tue Jun 12 11:39:45 GMT 2018
 base.0=C\:\\Users\\Faraby\\AndroidStudioProjects\\AssistanceMedicale\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\40
 path.0=classes.dex
 renamed.0=classes.dex

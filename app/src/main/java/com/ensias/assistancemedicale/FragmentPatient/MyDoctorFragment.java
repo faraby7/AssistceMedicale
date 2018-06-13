@@ -70,7 +70,7 @@ public class MyDoctorFragment extends Fragment {
                 JSONArray jArray2 = new JSONArray(result2);
                 JSONObject json_data2 = jArray2.getJSONObject(0);
                 rendezVousDoctor.setText(json_data2.getString("date"));
-                Toast.makeText(res.getContext(), "Welcome Mr "+ json_data2.getString("date") , Toast.LENGTH_LONG).show();
+
 
 
         }catch (Exception e){

@@ -1,24 +1,19 @@
 package Model;
 
-import java.sql.Timestamp;
-import java.util.ArrayList;
-
 public class Ordonnance {
 
-    private int duree;
-    private int id;
-    private Timestamp heureMatin;
-    private Timestamp heureMidi;
-    private Timestamp heureSoir;
-    private Patient patient;
-    private Medicament medicament;
 
-    public int getDuree() {
-        return duree;
-    }
+    public int id;
+    public int id_patient;
+    public int id_medecin;
+    public String Date;
 
-    public void setDuree(int duree) {
-        this.duree = duree;
+
+    public Ordonnance(int id, int id_patient, int id_medecin, String date) {
+        this.id = id;
+        this.id_patient = id_patient;
+        this.id_medecin = id_medecin;
+        Date = date;
     }
 
     public int getId() {
@@ -29,52 +24,27 @@ public class Ordonnance {
         this.id = id;
     }
 
-    public Timestamp getHeureMatin() {
-        return heureMatin;
+    public int getId_patient() {
+        return id_patient;
     }
 
-    public void setHeureMatin(Timestamp heureMatin) {
-        this.heureMatin = heureMatin;
+    public void setId_patient(int id_patient) {
+        this.id_patient = id_patient;
     }
 
-    public Timestamp getHeureMidi() {
-        return heureMidi;
+    public int getId_medecin() {
+        return id_medecin;
     }
 
-    public void setHeureMidi(Timestamp heureMidi) {
-        this.heureMidi = heureMidi;
+    public void setId_medecin(int id_medecin) {
+        this.id_medecin = id_medecin;
     }
 
-    public Timestamp getHeureSoir() {
-        return heureSoir;
+    public String getDate() {
+        return Date;
     }
 
-    public void setHeureSoir(Timestamp heureSoir) {
-        this.heureSoir = heureSoir;
+    public void setDate(String date) {
+        Date = date;
     }
-
-    public Patient getPatient() {
-        return patient;
-    }
-
-    public void setPatient(Patient patient) {
-        this.patient = patient;
-    }
-
-
-
-    public Ordonnance() {
-    }
-
-    public Ordonnance(int id,int duree, Timestamp heureMatin, Timestamp heureMidi, Timestamp heureSoir, Patient patient,Medicament medicament) {
-        this.duree = duree;
-        this.heureMatin = heureMatin;
-        this.heureMidi = heureMidi;
-        this.heureSoir = heureSoir;
-        this.patient = patient;
-        this.medicament = medicament;
-    }
-
-
-
 }
