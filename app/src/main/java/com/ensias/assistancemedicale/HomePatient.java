@@ -131,9 +131,13 @@ public class HomePatient extends AppCompatActivity
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
 
         if (id == R.id.Detecter) {
-            DetecterFragment mfragment = new DetecterFragment();
+
+            /*DetecterFragment mfragment = new DetecterFragment();
             mfragment.setmContext(this);
-            fragmentTransaction.replace(R.id.screen_area,mfragment);
+            fragmentTransaction.replace(R.id.screen_area,mfragment);*/
+
+            Intent intent = new Intent("android.example.com.tflitecamerademo.MainActivity");
+            startActivity(intent);
 
         } else if (id == R.id.my_doctor) {
 

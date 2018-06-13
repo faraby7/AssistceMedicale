@@ -22,6 +22,7 @@ import android.widget.TextView;
 
 import com.ensias.assistancemedicale.FragmentMedecin.DashboardMedecinFragment;
 import com.ensias.assistancemedicale.FragmentMedecin.GestionMedicamentFragment;
+import com.ensias.assistancemedicale.FragmentMedecin.GestionOrdonnancesFragment;
 import com.ensias.assistancemedicale.FragmentMedecin.GestionPatientFragment;
 import com.ensias.assistancemedicale.FragmentMedecin.RendezVousFragment;
 
@@ -168,6 +169,11 @@ public class HomeMedecin extends AppCompatActivity
             Intent H = new Intent(this, RendezVousPatient.class);
             startActivity(H);
 
+        }
+        else if(id == R.id.ordonnances_menu){
+            GestionOrdonnancesFragment mfragment = new GestionOrdonnancesFragment();
+            mfragment.setmContext(this);
+            fragmentTransaction.replace(R.id.screen_area2,mfragment);
         }
 /*
         /*else if (id == R.id.nav_gallery) {

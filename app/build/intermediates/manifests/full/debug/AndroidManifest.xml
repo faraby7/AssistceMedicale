@@ -43,6 +43,7 @@
             android:name="com.ensias.assistancemedicale.ProfilePatient"
             android:theme="@style/Theme.Design.Light.NoActionBar" />
         <activity android:name="com.ensias.assistancemedicale.RendezVousPatient" />
+        <activity android:name="com.ensias.assistancemedicale.NewPrescription" />
     </application>
 
 </manifest>

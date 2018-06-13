@@ -21,7 +21,7 @@ import Task.AsyncGetTask;
 
 public class MainActivity extends AppCompatActivity {
 
-    public static final String IP="http://192.168.43.219";
+    public static final String IP="http://10.23.18.119";
     SharedPreferences sharedPreferences;
     EditText UserName,Password;
     Button SignIn;

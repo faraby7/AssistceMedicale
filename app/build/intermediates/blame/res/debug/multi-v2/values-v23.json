@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Faraby\\AndroidStudioProjects\\AssistanceMedicale\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
+            "outputFile": "/home/freenemya/AndroidStudioProjects/AssistceMedicale/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Faraby\\.gradle\\caches\\transforms-1\\files-1.1\\cardview-v7-27.1.1.aar\\b06e485336c3f90790649738ca65e924\\res\\values-v23\\values-v23.xml",
+                    "source": "/home/freenemya/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/c3fa6910e2048a00a068c21a90b9acb3/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Faraby\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\3cdcb33ee316302796394ccb02ad989c\\res\\values-v23\\values-v23.xml",
+                    "source": "/home/freenemya/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/498b70930aa66f2a4e0a3d5245e841fb/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",

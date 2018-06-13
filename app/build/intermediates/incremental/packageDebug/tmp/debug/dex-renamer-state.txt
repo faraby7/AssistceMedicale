@@ -1,7 +1,4 @@
-#Tue Jun 12 11:44:11 GMT 2018
-base.0=C\:\\Users\\Faraby\\AndroidStudioProjects\\AssistanceMedicale\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\43
-path.1=classes.dex
-renamed.1=classes2.dex
+#Wed Jun 13 07:18:13 WET 2018
+base.0=/home/freenemya/AndroidStudioProjects/AssistceMedicale/app/build/intermediates/transforms/dexMerger/debug/45
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=C\:\\Users\\Faraby\\AndroidStudioProjects\\AssistanceMedicale\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\42

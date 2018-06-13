@@ -1,165 +1,169 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml:2:1-40:12
-MERGED from [com.android.support:design:27.1.0] C:\Users\Faraby\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\9a5a0f966029c3485a45cc3257d0f559\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Faraby\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\3cdcb33ee316302796394ccb02ad989c\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Faraby\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\8066856dea7ee81c17914cf13115effc\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Faraby\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\66cc6f2d43ec0e3ea13eacd709780b95\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\Faraby\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\b06e485336c3f90790649738ca65e924\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:27.1.0] C:\Users\Faraby\.gradle\caches\transforms-1\files-1.1\transition-27.1.0.aar\7e38b246f4d3517402ec6678aad01030\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-v4:27.1.0] C:\Users\Faraby\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.0.aar\1d5d3c02fe335342917e0c6ec863f50f\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:27.1.0] C:\Users\Faraby\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.0.aar\1169dc73dd515b1281d622aeb433b033\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Faraby\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\20a69c014de5404df7ff6f82d3ae9f4d\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Faraby\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\f843390be96c4107278860f01d3d58d2\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Faraby\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\11390de161067928f2d8414f879506e4\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Faraby\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\053be0ab2cee17862edca8f2ae911acd\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Faraby\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\2d76b8570aee6e3035243e2aaf84e616\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Faraby\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\2d41867d350f19913fdc66d2f191f4fb\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Faraby\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\48b62a659bbfe18f6a7313e54be0531d\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Faraby\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\efa2608db92424e1ba1793afad841744\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Faraby\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\fd7f25b6b109366979c3433b8fbb065a\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Faraby\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\935a1ac4c1d97271be8d9d0bce55771a\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml:2:1-40:12
+ADDED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml:2:1-41:12
+MERGED from [com.android.support:design:27.1.0] /home/freenemya/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/5ec99d510e44cbc766863661782f3b9c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/freenemya/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/498b70930aa66f2a4e0a3d5245e841fb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /home/freenemya/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/4f1e2998ecfb41658b00fdb22faaf160/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/freenemya/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/88dde5446773ddc3dec77cd72c185bb7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.1.1] /home/freenemya/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/c3fa6910e2048a00a068c21a90b9acb3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.0] /home/freenemya/.gradle/caches/transforms-1/files-1.1/transition-27.1.0.aar/97e25c100504324d3a7a672aaf6c638e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.1.0] /home/freenemya/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.0.aar/89cbcdb099e24dec61864cf9f555ee9a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.0] /home/freenemya/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/e85814c236d43527aa23dbabefa55871/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/freenemya/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/8a38d4b1597fb6b7e715d5553340b6fe/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/freenemya/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/0ceddbdc89c80ad23f72ecd51599afdd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /home/freenemya/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/93cc5727a8d169a73cb3596f2206c4b1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/freenemya/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/dd6b175407751df63ff9dbd68c722523/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/freenemya/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/254e0307823bf5c60a3b894afd6f35e4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /home/freenemya/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/6faca32e7a6ccca6e78e022dcdd1635e/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/freenemya/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/5e1b14f3c0337396c4dc1f52a8fefcf4/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/freenemya/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/62af935379b59db18545e3e3d8bfccd6/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /home/freenemya/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/add3677e90970a0524dd784280a18049/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/freenemya/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/e5249b0e8da79d6bca9630ab46c94b4a/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml:2:1-41:12
 	package
-		ADDED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml:3:5-44
-		INJECTED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml
+		ADDED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml:3:5-44
+		INJECTED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml
+		INJECTED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml:2:1-40:12
-		INJECTED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml
+		INJECTED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml
+		ADDED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml:2:1-41:12
+		INJECTED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml:2:1-40:12
-		INJECTED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml
+		INJECTED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml
+		ADDED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml:2:1-41:12
+		INJECTED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml:5:5-67
+ADDED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml:5:5-67
 	android:name
-		ADDED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml:5:22-64
+		ADDED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml:7:5-38:19
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Faraby\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\8066856dea7ee81c17914cf13115effc\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Faraby\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\8066856dea7ee81c17914cf13115effc\AndroidManifest.xml:9:5-20
+ADDED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml:7:5-39:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /home/freenemya/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/4f1e2998ecfb41658b00fdb22faaf160/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /home/freenemya/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/4f1e2998ecfb41658b00fdb22faaf160/AndroidManifest.xml:9:5-20
 	android:supportsRtl
-		ADDED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml:10:9-41
+		ADDED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml:10:9-41
 	android:roundIcon
-		ADDED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml:11:9-54
+		ADDED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml:11:9-54
 	android:icon
-		ADDED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml:9:9-40
+		ADDED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml:9:9-40
 	android:allowBackup
-		ADDED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml:8:9-35
+		ADDED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml:13:9-40
+		ADDED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml:13:9-40
 activity#com.ensias.assistancemedicale.MainActivity
-ADDED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml:14:9-59
+ADDED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml:14:9-59
 	android:name
-		ADDED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml:14:19-47
+		ADDED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml:14:19-47
 activity#com.ensias.assistancemedicale.Inscription
-ADDED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml:15:9-49
+ADDED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml:15:9-49
 	android:name
-		ADDED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml:15:19-46
+		ADDED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml:15:19-46
 activity#com.ensias.assistancemedicale.InscriptionMedecin
-ADDED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml:16:9-56
+ADDED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml:16:9-56
 	android:name
-		ADDED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml:16:19-53
+		ADDED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml:16:19-53
 activity#com.ensias.assistancemedicale.HomePatient
-ADDED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml:17:9-20:59
+ADDED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml:17:9-20:59
 	android:label
-		ADDED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml:19:13-64
+		ADDED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml:19:13-64
 	android:theme
-		ADDED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml:20:13-56
+		ADDED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml:20:13-56
 	android:name
-		ADDED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml:18:13-40
+		ADDED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml:18:13-40
 activity#com.ensias.assistancemedicale.HomeMedecin
-ADDED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml:21:9-24:59
+ADDED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml:21:9-24:59
 	android:label
-		ADDED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml:23:13-64
+		ADDED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml:23:13-64
 	android:theme
-		ADDED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml:24:13-56
+		ADDED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml:24:13-56
 	android:name
-		ADDED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml:22:13-40
+		ADDED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml:22:13-40
 activity#com.ensias.assistancemedicale.Welcome
-ADDED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml:25:9-33:20
+ADDED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml:25:9-33:20
 	android:theme
-		ADDED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml:27:13-60
+		ADDED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml:27:13-60
 	android:name
-		ADDED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml:26:13-36
+		ADDED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml:26:13-36
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml:28:13-32:29
+ADDED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml:28:13-32:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml:29:17-69
+ADDED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml:29:17-69
 	android:name
-		ADDED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml:29:25-66
+		ADDED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml:29:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml:31:17-77
+ADDED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml:31:17-77
 	android:name
-		ADDED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml:31:27-74
+		ADDED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml:31:27-74
 activity#com.ensias.assistancemedicale.ProfilePatient
-ADDED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml:34:9-36:69
+ADDED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml:34:9-36:69
 	android:theme
-		ADDED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml:36:13-66
+		ADDED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml:36:13-66
 	android:name
-		ADDED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml:35:13-43
+		ADDED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml:35:13-43
 activity#com.ensias.assistancemedicale.RendezVousPatient
-ADDED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml:37:9-64
+ADDED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml:37:9-64
 	android:name
-		ADDED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml:37:19-52
+		ADDED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml:37:19-52
+activity#com.ensias.assistancemedicale.NewPrescription
+ADDED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml:38:9-53
+	android:name
+		ADDED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml:38:19-50
 uses-sdk
-INJECTED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml
-MERGED from [com.android.support:design:27.1.0] C:\Users\Faraby\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\9a5a0f966029c3485a45cc3257d0f559\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:27.1.0] C:\Users\Faraby\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\9a5a0f966029c3485a45cc3257d0f559\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Faraby\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\3cdcb33ee316302796394ccb02ad989c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Faraby\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\3cdcb33ee316302796394ccb02ad989c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Faraby\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\8066856dea7ee81c17914cf13115effc\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Faraby\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\8066856dea7ee81c17914cf13115effc\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Faraby\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\66cc6f2d43ec0e3ea13eacd709780b95\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Faraby\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\66cc6f2d43ec0e3ea13eacd709780b95\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\Faraby\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\b06e485336c3f90790649738ca65e924\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\Faraby\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\b06e485336c3f90790649738ca65e924\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.0] C:\Users\Faraby\.gradle\caches\transforms-1\files-1.1\transition-27.1.0.aar\7e38b246f4d3517402ec6678aad01030\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.0] C:\Users\Faraby\.gradle\caches\transforms-1\files-1.1\transition-27.1.0.aar\7e38b246f4d3517402ec6678aad01030\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.0] C:\Users\Faraby\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.0.aar\1d5d3c02fe335342917e0c6ec863f50f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.0] C:\Users\Faraby\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.0.aar\1d5d3c02fe335342917e0c6ec863f50f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.0] C:\Users\Faraby\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.0.aar\1169dc73dd515b1281d622aeb433b033\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.0] C:\Users\Faraby\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.0.aar\1169dc73dd515b1281d622aeb433b033\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Faraby\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\20a69c014de5404df7ff6f82d3ae9f4d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Faraby\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\20a69c014de5404df7ff6f82d3ae9f4d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Faraby\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\f843390be96c4107278860f01d3d58d2\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Faraby\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\f843390be96c4107278860f01d3d58d2\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Faraby\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\11390de161067928f2d8414f879506e4\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Faraby\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\11390de161067928f2d8414f879506e4\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Faraby\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\053be0ab2cee17862edca8f2ae911acd\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Faraby\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\053be0ab2cee17862edca8f2ae911acd\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Faraby\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\2d76b8570aee6e3035243e2aaf84e616\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Faraby\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\2d76b8570aee6e3035243e2aaf84e616\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Faraby\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\2d41867d350f19913fdc66d2f191f4fb\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Faraby\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\2d41867d350f19913fdc66d2f191f4fb\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Faraby\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\48b62a659bbfe18f6a7313e54be0531d\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Faraby\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\48b62a659bbfe18f6a7313e54be0531d\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Faraby\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\efa2608db92424e1ba1793afad841744\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Faraby\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\efa2608db92424e1ba1793afad841744\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Faraby\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\fd7f25b6b109366979c3433b8fbb065a\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Faraby\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\fd7f25b6b109366979c3433b8fbb065a\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Faraby\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\935a1ac4c1d97271be8d9d0bce55771a\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Faraby\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\935a1ac4c1d97271be8d9d0bce55771a\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml
+INJECTED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml
+INJECTED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:27.1.0] /home/freenemya/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/5ec99d510e44cbc766863661782f3b9c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.0] /home/freenemya/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/5ec99d510e44cbc766863661782f3b9c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/freenemya/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/498b70930aa66f2a4e0a3d5245e841fb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/freenemya/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/498b70930aa66f2a4e0a3d5245e841fb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /home/freenemya/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/4f1e2998ecfb41658b00fdb22faaf160/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /home/freenemya/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/4f1e2998ecfb41658b00fdb22faaf160/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/freenemya/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/88dde5446773ddc3dec77cd72c185bb7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/freenemya/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/88dde5446773ddc3dec77cd72c185bb7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] /home/freenemya/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/c3fa6910e2048a00a068c21a90b9acb3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] /home/freenemya/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/c3fa6910e2048a00a068c21a90b9acb3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.0] /home/freenemya/.gradle/caches/transforms-1/files-1.1/transition-27.1.0.aar/97e25c100504324d3a7a672aaf6c638e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.0] /home/freenemya/.gradle/caches/transforms-1/files-1.1/transition-27.1.0.aar/97e25c100504324d3a7a672aaf6c638e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.0] /home/freenemya/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.0.aar/89cbcdb099e24dec61864cf9f555ee9a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.0] /home/freenemya/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.0.aar/89cbcdb099e24dec61864cf9f555ee9a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.0] /home/freenemya/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/e85814c236d43527aa23dbabefa55871/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.0] /home/freenemya/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/e85814c236d43527aa23dbabefa55871/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/freenemya/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/8a38d4b1597fb6b7e715d5553340b6fe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/freenemya/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/8a38d4b1597fb6b7e715d5553340b6fe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/freenemya/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/0ceddbdc89c80ad23f72ecd51599afdd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/freenemya/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/0ceddbdc89c80ad23f72ecd51599afdd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/freenemya/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/93cc5727a8d169a73cb3596f2206c4b1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/freenemya/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/93cc5727a8d169a73cb3596f2206c4b1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/freenemya/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/dd6b175407751df63ff9dbd68c722523/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/freenemya/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/dd6b175407751df63ff9dbd68c722523/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/freenemya/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/254e0307823bf5c60a3b894afd6f35e4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/freenemya/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/254e0307823bf5c60a3b894afd6f35e4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/freenemya/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/6faca32e7a6ccca6e78e022dcdd1635e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/freenemya/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/6faca32e7a6ccca6e78e022dcdd1635e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/freenemya/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/5e1b14f3c0337396c4dc1f52a8fefcf4/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/freenemya/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/5e1b14f3c0337396c4dc1f52a8fefcf4/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/freenemya/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/62af935379b59db18545e3e3d8bfccd6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/freenemya/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/62af935379b59db18545e3e3d8bfccd6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/freenemya/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/add3677e90970a0524dd784280a18049/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/freenemya/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/add3677e90970a0524dd784280a18049/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/freenemya/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/e5249b0e8da79d6bca9630ab46c94b4a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/freenemya/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/e5249b0e8da79d6bca9630ab46c94b4a/AndroidManifest.xml:20:5-44
+INJECTED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml
+INJECTED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml
+		INJECTED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml
+		ADDED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml
+		INJECTED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Faraby\AndroidStudioProjects\AssistanceMedicale\app\src\main\AndroidManifest.xml
+		INJECTED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml
+		ADDED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml
+		INJECTED from /home/freenemya/AndroidStudioProjects/AssistceMedicale/app/src/main/AndroidManifest.xml
